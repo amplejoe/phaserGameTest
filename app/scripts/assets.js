@@ -15,7 +15,15 @@ export const splashScreenAssets = [{
 }, {
   key: 'progress-bar',
   type: 'image'
-}];
+}, {
+  key: 'sky',
+  type: 'image',
+  url: 'space3.png'
+}, {
+  key: 'red',
+  type: 'image'
+}
+];
 
 /**
  *  General assets used throughout the game.
