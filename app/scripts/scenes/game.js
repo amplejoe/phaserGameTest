@@ -26,6 +26,19 @@ export default class Game extends Phaser.Scene {
     const x_pos = this.cameras.main.width / 2;
     const y_pos = this.cameras.main.height / 2;
     this.character = this.add.existing(new Character(this, x_pos, y_pos));
+
+    // witohut class
+    // let player = this.physics.add.sprite(100, 450, 'char');
+    // player.setBounce(0.2);
+    // player.setCollideWorldBounds(true);
+    // this.anims.create({
+    //   key: 'left',
+    //   frames: this.anims.generateFrameNumbers('char', { start: 0, end: 3 }),
+    //   frameRate: 10,
+    //   repeat: -1
+    // });
+    // player.anims.play('left', true);
+
   }
 
   /**

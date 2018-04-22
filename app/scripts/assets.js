@@ -32,9 +32,16 @@ export const gameAssets = [{
   key: 'logo',
   type: 'image'
 }, {
+  // see https://photonstorm.github.io/phaser3-docs/loader_filetypes_index.js.html
+  // and https://photonstorm.github.io/phaser3-docs/loader_filetypes_SpriteSheetFile.js.html
   key: 'char',
   type: 'spritesheet',
-  textureUrl: 'dude.png',
-  framewidh: 32,
-  frameheight: 48
+  url: 'dude.png',
+  config: {frameWidth: 32,  frameHeight: 48}
+}, {
+  // starling xml not yet implemented?
+  key: 'charxml',
+  type: 'xml',
+  url: 'char_anim.xml',
+  // path: 'char_anim.png'
 }];
