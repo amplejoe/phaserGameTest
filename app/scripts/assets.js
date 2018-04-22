@@ -31,4 +31,10 @@ export const splashScreenAssets = [{
 export const gameAssets = [{
   key: 'logo',
   type: 'image'
+}, {
+  key: 'char',
+  type: 'spritesheet',
+  textureUrl: 'dude.png',
+  framewidh: 32,
+  frameheight: 48
 }];
